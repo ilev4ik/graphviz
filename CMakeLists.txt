@@ -10,6 +10,11 @@ set(CMAKE_CXX_FLAGS "${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 set(CXX_STANDARD 11)
 set(PROJECT_EXECUTABLE_NAME ${PROJECT_NAME})
 
+enable_testing()
+set(GTEST_SOURCE_DIR ${PROJECT_SOURCE_DIR}/lib/googletest/googletest)
+add_subdirectory(${GTEST_SOURCE_DIR})
+add_subdirectory(test)
+
 find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
 include_directories(${Qt5Core_INCLUDES} ${Qt5Widgets_INCLUDES})
 add_definitions(${Qt5Widgets_DEFINITIONS})

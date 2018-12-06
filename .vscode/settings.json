@@ -24,5 +24,8 @@
                 }
             }
         ]
-    }
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "gtest-adapter.debugConfig": "Tests",
+    "gtest-adapter.supportLocation": true
 }
