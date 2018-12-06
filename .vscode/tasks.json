@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "doxygen (generate config)",
+            "type": "shell",
+            "command": "doxygen -g config.txt"
+        },
+        {
+            "label": "doxygen (run)",
+            "type": "shell",
+            "command": "doxygen config.txt"
+        }
+    ]
+}
