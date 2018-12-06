@@ -31,5 +31,9 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
     "clang-format.executable": "C:/Program Files (x86)/LLVM/bin/clang-format.exe",
-    "clang-format.assumeFilename": ".clang-format"
+    "clang-format.assumeFilename": ".clang-format",
+    "licenser.author": "Levon Oganesyan",
+    "licenser.projectName": "Graphviz",
+    "licenser.license": "MIT",
+    "licenser.disableAutoHeaderInsertion": true
 }
