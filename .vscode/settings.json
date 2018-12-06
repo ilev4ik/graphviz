@@ -27,5 +27,9 @@
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "gtest-adapter.debugConfig": "Tests",
-    "gtest-adapter.supportLocation": true
+    "gtest-adapter.supportLocation": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "clang-format.executable": "C:/Program Files (x86)/LLVM/bin/clang-format.exe",
+    "clang-format.assumeFilename": ".clang-format"
 }

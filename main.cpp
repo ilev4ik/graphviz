@@ -3,17 +3,16 @@
 
 /**
  * @brief hello
- * 
- * @param argc 
- * @param argv 
- * @return int 
+ *
+ * @param argc
+ * @param argv
+ * @return int
  */
-int main(int argc, char* argv[])
-{
-    QApplication app(argc, argv);
+int main(int argc, char* argv[]) {
+  QApplication app(argc, argv);
 
-    QPushButton button ("Hello world !");
-    button.show();
+  QPushButton button("Hello world!");
+  button.show();
 
-    return app.exec();
+  return app.exec();
 }
