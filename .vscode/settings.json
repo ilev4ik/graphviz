@@ -1,8 +1,4 @@
 {
-    "files.associations": {
-        "qlabel": "cpp",
-        "qapplication": "cpp"
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -35,5 +31,6 @@
     "licenser.author": "Levon Oganesyan",
     "licenser.projectName": "Graphviz",
     "licenser.license": "MIT",
-    "licenser.disableAutoHeaderInsertion": true
+    "licenser.disableAutoHeaderInsertion": true,
+    "C_Cpp.configurationWarnings": "Disabled"
 }
